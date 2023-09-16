@@ -1,4 +1,5 @@
 {{ $alt := .Title | default .Text }}
+{{/* .Destination */}}
 {{ if in .Destination "http" }}
   <figure>
     <img
@@ -9,11 +10,11 @@
     />
   </figure>
   <figcaption class="text-sm italic">
-    {{ $alt | $.Page.RenderString }}
+    {{ $alt }}
   </figcaption>
 {{ else }}
   {{ $image := .Page.Resources.GetMatch .Destination }}
-  {{ $alt := $alt | $.Page.RenderString }}
+  {{ $alt := $alt}}
 
   {{ $tinyw := default "500x webp" }}
   {{ $smallw := default "800x webp" }}
@@ -65,8 +66,10 @@
         />
       </picture>
     </a>
-    <figcaption class="text-sm italic">
-      {{ $alt | $.Page.RenderString }}
-    </figcaption>
+    <!-- 
+      <figcaption class="text-sm italic">
+        {{ $alt }}
+      </figcaption>
+    -->
   </figure>
 {{ end }}

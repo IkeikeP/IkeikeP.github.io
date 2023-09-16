@@ -1,16 +1,75 @@
 {{ define "main" }}
-<div
-  class="px-6 mx-auto mb-16 prose text-gray-700 justify-self-center sm:px-4 md:px-0 lg:prose-lg dark:prose-dark"
->
-    <div class="e-content">
-      {{ .Content }}
-    </div>
-    <div class="social-links">
-      <a class="fab fa-github" href="https://github.com/IkeikeP"></a>
-      <a class="fab fa-linkedin" href="https://www.linkedin.com/in/francisconina/"></a>
-      <a class="fab fa-stack-overflow" href="https://stackoverflow.com/users/2923357/ikeike/"></a>
-      <a class="fab fa-twitter" href="https://twitter.com/IkeikeGZ"></a>
-    </div>
-</div>
+  <article class="text-center text-gray-700 dark:text-gray-200">
+    <div class="flex flex-col h-screen -mt-4 sm:-mt-16">
+      <div class="m-auto">
+        {{ with .Site.Params.titleimage }}
+          {{ $image := resources.Get . }}
+          <div class="mx-auto mb-2 rounded-full h-48 w-48">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" >
+              <defs>
+                <mask id="circle-mask">
+                  <circle cx="100" cy="100" r="95" fill="white" style="stroke: green; stroke-width: 3;" />
+                </mask>
+              </defs>
+              <image
+                x="0"
+                y="0"
+                width="200"
+                height="200"
+                xlink:href="{{ ($image.Fit "300x300 png").RelPermalink }}"
+                class="mx-auto mb-2 rounded-full border border-gray-200"
+                mask="url(#circle-mask)"
+                stroke="green"
+              />
+            </svg>
+          </div>
 
+          
+        {{ end }}
+        <h1 class="font-light text-5xl text-gray-500 dark:text-gray-200">
+          {{ .Title }}
+        </h1>
+        {{ .Content }}
+        <div
+          class="w-48 m-auto my-4 border-accent-400 border-2 rounded-sm"
+        ></div>
+        <div class="social-links">
+          <a class="fab fa-github" href="https://github.com/IkeikeP"></a>
+          <a class="fab fa-linkedin" href="https://www.linkedin.com/in/francisconina/"></a>
+          <a class="fab fa-stack-overflow" href="https://stackoverflow.com/users/2923357/ikeike/"></a>
+          <a class="fab fa-twitter" href="https://twitter.com/IkeikeGZ"></a>
+        </div>
+        <div class="flex justify-center space-x-4">
+          {{ range .Site.Menus.social }}
+            <a
+              rel="me"
+              href="{{ .URL }}"
+              title="{{ .Name }}"
+              class="text-gray-700 dark:text-gray-200 hover:text-accent-400 transition-colors duration-200"
+            >
+              {{ $logoName := printf "%s%s" "logo-" (lower .Name) }}
+              {{ partial "icons/ionicons" (dict "logoname" $logoName "size" 10) }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+      {{ if .Site.Params.recentpostsonindex | default true }}
+        <div class="mx-auto mb-10">
+          <svg
+            class="animate-bounce w-6 h-6 text-black dark:text-white cursor-pointer dark:stroke-current"
+            id="bouncing-arrow"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+          <!-- (antes do > stroke="currentColor" -->
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+      {{ end }}
+    </div>
+
+  </article>
 {{ end }}

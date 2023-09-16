@@ -22,7 +22,7 @@ enableEmoji = true
     # Title to be displayed in header
     headerTitle = 'Francisco Bicho'
     # User image
-    #titleImage = 'images/index.png'
+    titleImage = 'images/fran5.png'
     # Copyright text displayed in footer
     footerCopyrightText = '© 2023 Copyright Francisco Bicho'
 
