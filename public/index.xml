@@ -9,36 +9,6 @@
     <copyright>© 2023 Copyright Francisco Bicho</copyright>
     <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://example.org/about/</link>
-      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/about/</guid>
-      
-      
-      
-      
-      
-      
-      
-      <description>
-          <![CDATA[ 
-          
-          <p>chringel - A lean theme for Hugo.</p>
-<p>Made by <a href="https://github.com/chringel21/" title="me" target="_blank" rel="nofollow noopener">me</a>. Based on the <strong>awesome</strong> <a href="https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter" title="Hugo Starter Theme with Tailwind CSS" target="_blank" rel="nofollow noopener">Hugo Starter Theme with Tailwind CSS</a>.</p>
-
-          
-          
-          
-          
-          
-          ]]>
-      </description>
-
-
-    </item>
-    
-    <item>
       <title>Lorem Markdownum</title>
       <link>https://example.org/blog/lorem-markdownum/</link>
       <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
@@ -228,11 +198,11 @@ ubi.</p>
     </item>
     
     <item>
-      <title>Archive</title>
-      <link>https://example.org/archive/</link>
+      <title>About</title>
+      <link>https://example.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/archive/</guid>
+      <guid>https://example.org/about/</guid>
       
       
       

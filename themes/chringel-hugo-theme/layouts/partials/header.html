@@ -60,44 +60,12 @@
       </svg>
     </label>
 
-    <ul
-      id="nav-menu"
-      class="sm:flex w-full sm:w-auto hidden sm:block mt-2 sm:mt-0 sm:space-x-2"
-    >
-      {{ with .Site.GetPage "/about" }}
+    <ul id="nav-menu" class="sm:flex w-full sm:w-auto hidden sm:block mt-2 sm:mt-0 sm:space-x-2">
+      {{ range .Site.RegularPages }}
         <li>
-          <a
-            href="{{ .Permalink }}"
-            class="text-gray-500 transition-colors duration-200 dark:text-gray-200 font-mono hover:text-accent-400 mx-2"
-            >/{{ .Title }}</a
-          >
-        </li>
-      {{ end }}
-      {{ with .Site.GetPage "/resume" }}
-        <li>
-          <a
-            href="{{ .Permalink }}"
-            class="text-gray-500 transition-colors duration-200 dark:text-gray-200 font-mono hover:text-accent-400 mx-2"
-            >/{{ .Title }}</a
-          >
-        </li>
-      {{ end }}
-      {{ range .Site.Sections }}
-        <li>
-          <a
-            href="{{ .Permalink }}"
-            class="text-gray-500 transition-colors duration-200 dark:text-gray-200 font-mono hover:text-accent-400 mx-2"
-            >/{{ .Title }}</a
-          >
-        </li>
-      {{ end }}
-      {{ with .Site.GetPage "/archive" }}
-        <li>
-          <a
-            href="{{ .Permalink }}"
-            class="text-gray-500 transition-colors duration-200 dark:text-gray-200 font-mono hover:text-accent-400 mx-2"
-            >/{{ .Title }}</a
-          >
+          <a href="{{ .Permalink }}"
+             class="text-gray-500 transition-colors duration-200 dark:text-gray-200 font-mono hover:text-accent-400 mx-2"
+          >> {{ .Title }}</a>
         </li>
       {{ end }}
     </ul>
