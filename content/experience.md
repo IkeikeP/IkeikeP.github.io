@@ -1,10 +1,11 @@
 ---
 title: "Work"
-type: about
+type: experience
 ---
 
 # Experience
-### >> Engine Programmer - Funcom - [04/23 - Present]
+### >> Engine Programmer
+#### Funcom - [04/23 - Present]
 Working as Engine Programmer for Dune: Awakening [[Official Website](https://duneawakening.com/)] [[Steam](https://store.steampowered.com/app/1172710/Dune_Awakening/)]
 
 ![Dune Awakening](/images/duneawakening.jpg)
