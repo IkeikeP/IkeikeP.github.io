@@ -38,3 +38,5 @@ enableEmoji = true
 [markup]
   [markup.highlight]
     style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
