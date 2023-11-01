@@ -1,5 +1,30 @@
 @tailwind base;
 
+
+.job-title-bulletpoint {
+  color: rgb(74 222 128) !important;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+}
+
+.job-title {
+  color: rgb(74 222 128) !important;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  margin-bottom: -5px !important; /* Adjust the spacing between title and subtext */
+}
+
+.job-company {
+  font-family: 'Fira Sans';
+  font-size: 1.2em; /* Increases font size by 20% relative to the parent element */
+
+}
+
+.job-dates {
+  font-family: 'Fira Sans';
+}
+
+
 @font-face {
   font-family: "Comfortaa";
   font-style: normal;
