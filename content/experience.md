@@ -17,7 +17,16 @@ Tech Skills: C++, Unreal
 <h3 class="job-title"> <span class="job-title-bulletpoint">></span> Software Developer</h3>
 <span class="job-company">Miniclip </span> • <span class="job-dates"> 02/2020 - 04/2023</span>
 
-I was responsible for developing and maintaining the technology used across miniclip's portfolio of mobile games. I developed in-house tools and libraries that support our game development process. Most of my time as a technology developer was on the Unity engine pipeline. Supporting and improving the underlying technology of games such as Volleyball Arena [iOS](https://apps.apple.com/app/volleyball-arena/id1563362742)/[Android](https://play.google.com/store/apps/details?id=com.miniclip.minivolley), Pool Trickshots [iOS](https://apps.apple.com/us/app/pool-trickshots/id1550606748)/[Android](https://play.google.com/store/apps/details?id=net.ilyon.pooltrickshots&hl=pt_PT&gl=US) and Horse Racing Hero [Android](https://play.google.com/store/apps/details?id=com.miniclip.horsey).  
+I was responsible for developing and maintaining the technology used across miniclip's portfolio of mobile games. I developed in-house tools and libraries that support our game development process. Most of my time as a technology developer was on the Unity engine pipeline. Supporting and improving the underlying technology of games such as Volleyball Arena [iOS](https://apps.apple.com/app/volleyball-arena/id1563362742)/[Android](https://play.google.com/store/apps/details?id=com.miniclip.minivolley),
+Badminton Clash 3D [iOS](https://apps.apple.com/us/app/badminton-clash-3d/id6444045683)/[Android](https://play.google.com/store/apps/details?id=games.onebutton.badminton), Pool Trickshots [iOS](https://apps.apple.com/us/app/pool-trickshots/id1550606748)/[Android](https://play.google.com/store/apps/details?id=net.ilyon.pooltrickshots&hl=pt_PT&gl=US) and Horse Racing Hero [Android](https://play.google.com/store/apps/details?id=com.miniclip.horsey)/[iOS](https://apps.apple.com/pt/app/horse-racing-hero-riding-game/id1626987074).  
+
+<div class="image-row">
+  <img src="/images/volleyballarena2.png" alt="Image 1" class="scaled-image">
+  <img src="/images/badmintonclash.png" alt="Image 2" class="scaled-image">
+  <img src="/images/pooltrickshots.png" alt="Image 3" class="scaled-image">
+  <img src="/images/horseracinghero.png" alt="Image 4" class="scaled-image">
+</div>
+
 Tech Skills: Unity - C#/.NET - C++ - Objective-C - Jenkins - Python - CMake
 
 <h3 class="job-title"> <span class="job-title-bulletpoint">></span> Software Developer</h3>
@@ -26,6 +35,10 @@ Tech Skills: Unity - C#/.NET - C++ - Objective-C - Jenkins - Python - CMake
 Started working on Agar.io mobile [iOS](https://apps.apple.com/us/app/agar-io/id995999703)/[Android](https://play.google.com/store/apps/details?id=com.miniclip.agar.io) a world famous hit for around 5 months. Then, I moved to the Mini Militia development team, a free-to-play 2D shooter game for [iOS](https://apps.apple.com/us/app/doodle-army-2-mini-militia/id405885221) and [Android](https://play.google.com/store/apps/details?id=com.appsomniacs.da2).  
 Tech Skills: C++ - Objective-C - cocos2d - CMake - Jenkins 
 
+<div class="image-row">
+  <img src="/images/agario.png" alt="Image 1" class="scaled-image">
+  <img src="/images/minimilitia.png" alt="Image 2" class="scaled-image">
+</div>
 <h3 class="job-title"> <span class="job-title-bulletpoint">></span> Summer Internship</h3>
 <div><span class="job-company">INESC-ID </span> • <span class="job-dates"> 02/2015 - 04/2015</span></div>
 The objective was to leverage the transactional memory support provided by the new Haswell processors to execute device driver code within a secure, isolated environment within the kernel. My role in this project involved the development of assembly code designed to assess the feasibility and functionality of this concept.
