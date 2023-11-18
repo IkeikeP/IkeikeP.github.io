@@ -26,7 +26,7 @@
 
 /* Apply a maximum width to the images container */
 .image-row {
-  max-width: 80%; /* Adjust the max-width based on your design */
+  max-width: 95%; /* Adjust the max-width based on your design */
   display: flex;
 }
 
@@ -1931,7 +1931,7 @@ body .icon-parent::before {
 }
 
 .max-w-4xl{
-  max-width: 56rem;
+  max-width: 50rem;
 }
 
 .max-w-2xl{
