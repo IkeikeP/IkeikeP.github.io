@@ -53,8 +53,8 @@
             "@type": "ImageObject",
             "url": "{{ . | absURL }}",
             "width":"32",
-            "height":"32"{{ end }}
-        }
+            "height":"32"
+        }{{ end }}
     },
     "image": {{ if .Params.images }}[{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}]{{ else if and (.Params.cover.src) (not (in .Params.cover.src "http")) }}{{ ($.Page.Resources.GetMatch .Params.cover.src).Permalink }}{{ else if (in .Params.cover.src "http") }}{{ .Params.cover.src }}{{ else }}{{ .Site.Params.favicons.icon32 | absURL }}{{ end }},
     "url" : "{{ .Permalink }}",
