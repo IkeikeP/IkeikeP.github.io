@@ -10,11 +10,11 @@ paginate = 10
 enableEmoji = true
 
 [Params]
-    name = "chringel"
-    description = "A privacy focused theme for Hugo"
+    name = "Francisco Bicho"
+    description = "Game Developer"
 
-    github_user = "chringel21"
-    github_repo = "https://github.com/chringel21/chringel-hugo-theme"
+    github_user = "IkeikeP"
+    github_repo = "https://github.com/IkeikeP/IkeikeP.github.io"
     github_banner = true
 
     favicon = "favicon.ico"
