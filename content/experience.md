@@ -11,7 +11,7 @@ type: experience
 Currently serving as an Engine Programmer for Dune: Awakening, an upcoming open-world survival MMO  [[Official Website](https://duneawakening.com/)] [[Steam](https://store.steampowered.com/app/1172710/Dune_Awakening/)]. <br>
 Unfortunately, I am unable to provide a detailed description of my work at Funcom due to being under NDA.
 
-Tech Skills: C++, Unreal
+C++, Unreal
 
 ![Dune Awakening](/images/duneawakening.jpg)
 
